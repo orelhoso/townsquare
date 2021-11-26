@@ -694,20 +694,20 @@
   },
   {
     "id": "apprentice",
-    "name": "Apprentice",
+    "name": "Aprendiz",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 1,
-    "firstNightReminder": "Show the Apprentice the 'You are' card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's 'Is the Apprentice' reminder by that character token.",
+    "firstNightReminder": "Informe ao Aprendiz qual personagem ele copiou a habilidade de Cidadão ou Lacaio. No Grimório, substitua a ficha de Aprendiz por aquela ficha de personagem e coloque o marcador de 'Habilidade de Aprendiz' do Aprendiz.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Is the Apprentice"],
+    "reminders": ["Habilidade de aprendiz"],
     "setup": false,
-    "ability": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil)."
+    "ability": "Em sua 1ª noite, você ganha uma habilidade de Cidadão (se for bom), ou uma habilidade de Lacaio (se for mal)."
   },
   {
     "id": "matron",
-    "name": "Matron",
+    "name": "Matrona",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
@@ -716,34 +716,34 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private."
+    "ability": "A cada dia, você pode escolher até 3 pares de jogadores para trocar de lugar. Os jogadores não podem deixar seus lugares para conversar em particular."
   },
   {
     "id": "judge",
-    "name": "Judge",
+    "name": "Juiz",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": ["Usado"],
     "setup": false,
-    "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail."
+    "ability": "Uma vez por jogo, se outro jogador for nomeado, você pode escolher forçar a execução atual para passar ou falhar."
   },
   {
     "id": "bishop",
-    "name": "Bishop",
+    "name": "Bispo",
     "edition": "bmr",
     "team": "traveler",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Nominate good",
-        "Nominate evil"],
+    "reminders": ["Nomeado Bom",
+      "Nomeado Mal"],
     "setup": false,
-    "ability": "Only the Storyteller can nominate. At least 1 opposite player must be nominated each day."
+    "ability": "Apenas o Narrador pode indicar. Pelo menos 1 jogador de cada alinhamento deve ser nomeado a cada dia."
   },
   {
     "id": "voudon",
