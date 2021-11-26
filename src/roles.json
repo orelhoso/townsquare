@@ -906,33 +906,33 @@
   },
   {
     "id": "juggler",
-    "name": "Juggler",
+    "name": "Malabarista",
     "edition": "snv",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 62,
-    "otherNightReminder": "If today was the Juggler\u2019s first day: Show the hand signal for the number (0, 1, 2, etc.) of 'Correct' markers. Remove markers.",
-    "reminders": ["Correct"],
+    "otherNightReminder": "Se hoje foi o primeiro dia do malabarista: • Informe-o o número (0, 1, 2, etc.) de advinhações corretas.",
+    "reminders": ["Correto"],
     "setup": false,
-    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
+    "ability": "No primeiro dia, você pode tentar adivinhar publicamente os personagens de até 5 jogadores. Durante a Noite, você descobre quantos você acertou."
   },
   {
     "id": "sage",
-    "name": "Sage",
-    "edition": "snv",
+    "name": "Sábio",
     "team": "townsfolk",
+    "edition": "snv",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 43,
-    "otherNightReminder": "If the Sage was killed by a Demon: Point to two players, one of which is that Demon.",
+    "otherNightReminder": "Se o Sábio foi morto por um Demônio: Informe ao Sábio dois jogadores, um dos quais é o Demônio.",
     "reminders": [],
     "setup": false,
-    "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
+    "ability": "Se você for morto pelo Demônio, você descobre que ele é 1 dentre 2 jogadores."
   },
   {
     "id": "mutant",
-    "name": "Mutant",
+    "name": "Mutante",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
@@ -941,20 +941,20 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you are \u201Cmad\u201D about being an Outsider, you might be executed."
+    "ability": "Se você insinuar que é um Forasteiro, você pode ser executado imediatamente. Se você estiver alucinado que é um Forasteiro, você pode ser executado."
   },
   {
     "id": "sweetheart",
-    "name": "Sweetheart",
+    "name": "Queridinha",
     "edition": "snv",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 41,
-    "otherNightReminder": "Choose a player that is drunk.",
-    "reminders": ["Drunk"],
+    "otherNightReminder": "",
+    "reminders": ["Bêbado"],
     "setup": false,
-    "ability": "When you die, 1 player is drunk from now on."
+    "ability": "Se você morrer, um jogador fica bêbado."
   },
   {
     "id": "barber",
