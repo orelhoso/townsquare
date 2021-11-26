@@ -1211,16 +1211,16 @@
   },
   {
     "id": "preacher",
-    "name": "Preacher",
+    "name": "Missionário",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 14,
-    "firstNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
+    "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
     "otherNight": 7,
-    "otherNightReminder": "The Preacher chooses a player. If a Minion is chosen, wake the Minion and show the 'This character selected you' card and then the Preacher token.",
-    "reminders": ["At a sermon"],
+    "otherNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
+    "reminders": ["Sem habilidade"],
     "setup": false,
-    "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability."
+    "ability": "Toda Noite, escolha um jogador: Caso seja um Lacaio, ele saberá que foi escolhido. Todos os Lacaios escolhidos perdem a habilidade."
   },
   {
     "id": "king",
@@ -1237,59 +1237,59 @@
   },
   {
     "id": "balloonist",
-    "name": "Balloonist",
+    "name": "Balonista",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 44,
-    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
+    "firstNightReminder": "Escolha um tipo de personagem. Informe ao Balonista um jogador cujo personagem é desse tipo. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
     "otherNight": 63,
-    "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
-    "reminders": ["Seen Townsfolk",
-        "Seen Outsider",
-        "Seen Minion",
-        "Seen Demon",
-        "Seen Traveller"],
+    "otherNightReminder": "Escolha um tipo de personagem que você ainda não escolheu. Informe ao Balonista um jogador cujo personagem é desse tipo, se houver algum. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
+    "reminders": ["Visto Cidadão",
+        "Visto Forasteiro",
+        "Visto Lacaio ",
+        "Visto Demônio",
+        "Visto Viajante"],
     "setup": true,
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]"
+    "ability": "Toda noite, você descobre um jogador de cada tipo de personagem, até que não haja mais tipos para descobrir. [+1 Forasteiro]"
   },
   {
     "id": "cultleader",
-    "name": "Cult Leader",
+    "name": "Líder da Seita",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 46,
-    "firstNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "firstNightReminder": "Escolha arbitraiamente um vizinho vivo do Líder da Seita, O alinhamento dele agora é igual ao do jogador escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o o seu alinhamento Atual.",
     "otherNight": 66,
-    "otherNightReminder": "If the cult leader changed alignment, show them the thumbs up good signal of the thumbs down evil signal accordingly.",
+    "otherNightReminder": "Escolha arbitraiamente um vizinho vivo do Líder da Seita, O alinhamento dele agora é igual ao do jogador escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o o seu alinhamento Atual.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins."
+    "ability": "A cada noite o seu alinhamento (bem/mal) será igual a um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a seita, seu time vence."
   },
   {
     "id": "lycanthrope",
-    "name": "Lycanthrope",
+    "name": "Licantropo",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 23,
-    "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
+    "otherNightReminder": "O Licantropo escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for do bem e não morreu, a habilidade do Licantropo não impede alguém de morrer esta noite.",
     "reminders": ["Dead"],
     "setup": false,
-    "ability": "Each night*, choose a living player: if good, they die, but they are the only player that can die tonight."
+    "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
   },
   {
     "id": "amnesiac",
-    "name": "Amnesiac",
+    "name": "Esquecido",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 12,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "Decida a habilidade do Esquecido. Se a habilidade do Esquecido faz com que ele acorde esta noite: Acorde o Esquecido e execute sua habilidade.",
     "otherNight": 5,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "Se a habilidade do Esquecido faz com que ele acorde esta noite: Acorde o Esquecido e execute sua habilidade.",
     "reminders": ["?"],
     "setup": false,
-    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
+    "ability": "Você não sabe qual é a sua habilidade. Todo dia, visite o Storyteller para tentar adivinhar a sua habilidade: você descobre o quão perto está da resposta."
   },
   {
     "id": "engineer",
@@ -1306,16 +1306,16 @@
   },
   {
     "id": "fisherman",
-    "name": "Fisherman",
+    "name": "Pescador",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": ["Usado"],
     "setup": false,
-    "ability": "Once per game, during the day, visit the Storyteller for some advice to help you win."
+    "ability": "Uma vez por jogo, durante o dia, visite o Storyteller para obter conselhos de como vencer."
   },
   {
     "id": "huntsman",
@@ -1398,17 +1398,17 @@
   },
   {
     "id": "cannibal",
-    "name": "Cannibal",
+    "name": "Canibal",
     "edition": "",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Poisoned",
-        "Died today"],
+    "reminders": ["Habilidade adquirida",
+      "Enveneado"],
     "setup": false,
-    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution."
+    "ability": "Você tem a habilidade do jogador executado mais recente. Se ele for do mal, você está envenenado até um jogador do Bem ser executado."
   },
   {
     "id": "snitch",
@@ -1425,16 +1425,16 @@
   },
   {
     "id": "acrobat",
-    "name": "Acrobat",
+    "name": "Acrobata",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 39,
-    "otherNightReminder": "If a good living neighbour is drunk or poisoned, the Acrobat player dies.",
-    "reminders": ["Dead"],
+    "otherNightReminder": "Se um dos vizinhos do Bem do Acrobata está bêbado ou envenenado, o Acrobata morre.",
+    "reminders": ["Morto"],
     "setup": false,
-    "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die."
+    "ability": "Toda Noite*, se um dos seus vizinhos do Bem estiver Bêbado ou Envenenado, você morre."
   },
   {
     "id": "puzzlemaster",
@@ -1491,7 +1491,7 @@
   },
   {
     "id": "politician",
-    "name": "Politician",
+    "name": "Político",
     "edition": "",
     "team": "outsider",
     "firstNight": 0,
@@ -1500,21 +1500,21 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead."
+    "ability": "Se você for o maior responsável pela derrota do seu time, o seu alinhamento (bem/mal) muda e você vence, mesmo estando morto. Caso bêbado/envenenado sua habilidade não tem efeito."
   },
   {
     "id": "widow",
-    "name": "Widow",
+    "name": "Viúva",
     "edition": "",
     "team": "minion",
     "firstNight": 18,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the 'These characters are in play' card, then the Widow character token.",
+    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado. Caso a Viúva fique bêbada/envenenada/morra, o veneno da Viúva cessa até que ela fique sóbria novamente. Quando o bom jogador que sabe que a viúva está em jogo muda o alinhamento para ser mau, outro jogador do time bom imediatamente descobre que a viúva está em jogo",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Poisoned"],
-    "remindersGlobal": ["Knows"],
+    "reminders": ["Envenenado",
+      "Knowing"],
     "setup": false,
-    "ability": "On your 1st night, look at the Grimoire and choose a player: they are poisoned. 1 good player knows a Widow is in play."
+    "ability": "Na primeira Noite, veja o Grimório e escolha um jogador: ele está envenenado. 1 jogador do Bem sabe que a Viúva está em jogo."
   },
   {
     "id": "fearmonger",
@@ -1551,9 +1551,9 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Claimed"],
+    "reminders": ["Clamado Hoje"],
     "setup": false,
-    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins."
+    "ability": "Quando nomeado, você pode publicamente afirmar ser o Goblin: Se for executado naquele dia, seu time vence."
   },
   {
     "id": "mephit",
@@ -1612,18 +1612,18 @@
   },
   {
     "id": "lilmonsta",
-    "name": "Lil' Monsta",
+    "name": "Bebê Monstro",
     "edition": "",
     "team": "demon",
     "firstNight": 16,
-    "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+    "firstNightReminder": "Na primeira noite, pule as etapas de informações dos Lacaios e  as informações do Demônio. Acorde todos os Lacaios. Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
     "otherNight": 36,
-    "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
-    "reminders": [],
-    "remindersGlobal": ["Is the Demon",
-        "Dead"],
+    "otherNightReminder": "Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio. Escolha alguém para morrer mesmo que a babá atual do bebê mostro esteja bêbada/envenenada.",
+    "reminders": "",
+    "remindersGlobal": ["Morto",
+      "Demônio"],
     "setup": true,
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]"
+    "ability": "A cada noite os Lacaios escolhem quem ficará com o token do Bebê Monstro e será o Demônio. Um jogador morre a cada noite. [+1 Lacaio]"
   },
   {
     "id": "lleech",
@@ -1656,17 +1656,17 @@
   },
   {
     "id": "legion",
-    "name": "Legion",
+    "name": "Legião",
     "edition": "",
     "team": "demon",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": "Informe a todos os jogadores da Legião quem pertence a Legião, as informações do Demônio deverão ser dadas a todos os membros da Legião",
     "otherNight": 34,
-    "otherNightReminder": "Choose a player, that player dies.",
-    "reminders": ["Dead",
-        "About to die"],
+    "otherNightReminder": "Se ao menos um membro da Legião estiver sóbrio, escolha um jogador, esse jogador morre.",
+    "reminders": ["Morto",
+        "Prestes a morrer"],
     "setup": true,
-    "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]"
+    "ability": "Cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
   },
   {
     "id": "leviathan",
@@ -1674,17 +1674,17 @@
     "edition": "",
     "team": "demon",
     "firstNight": 52,
-    "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
-    "otherNight": 72,
-    "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
-    "reminders": ["Day 1",
-        "Day 2",
-        "Day 3",
-        "Day 4",
-        "Day 5",
-        "Good player executed"],
+    "firstNightReminder": "Coloque o marcador Leviathan “Dia 1”. Anuncie no próximo amanhecer “O Leviathan está em jogo; este é o primeiro dia ”.",
+    "otherNight": 0,
+    "otherNightReminder": "Coloque o próximo marcador de Leviathan 'Dia N', onde 'N' é o número do dia. Anuncie no próximo amanhcer “O Leviathan está em jogo; este é o dia n. ”.",
+    "reminders": ["Executado e do Bem",
+      "Dia 1",
+      "Dia 2",
+      "Dia 3",
+      "Dia 4",
+      "Dia 5"],
     "setup": false,
-    "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins."
+    "ability": "Todos os jogadores sabem que você está em jogo. Depois de 5 dias, o Mal vence. Se mais de 1 jogador do Bem for executado, o Mal vence."
   },
   {
     "id": "riot",
@@ -1713,4 +1713,3 @@
     "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees."
   }
 ]
-
