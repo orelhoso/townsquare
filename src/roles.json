@@ -686,11 +686,11 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 28,
-    "otherNightReminder": "If the Po chose no-one the previous night: The Po points to three players. Otherwise: The Po either shows the 'no' head signal , or points to a player. Chosen players die",
-    "reminders": ["Dead",
-        "3 attacks"],
+    "otherNightReminder": "Se na ultima noite o Po escolheu não matar um jogador: O Po escolhe três jogadores. Caso contrário: O Po pode recusar usar sua habilidade ou escolher um jogador. Os jogadores escolhidos (se houver) morrem na ordem escolhida.",
+    "reminders": ["Morto",
+      "3 Ataques"],
     "setup": false,
-    "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight."
+    "ability": "Toda Noite*, você pode escolher um jogador: ele morre. Se a sua última escolha foi ninguém, escolha 3 jogadores: eles morrem na ordem que você escolheu."
   },
   {
     "id": "apprentice",
