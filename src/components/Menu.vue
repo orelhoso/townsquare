@@ -154,7 +154,7 @@
         <template v-if="tab === 'players' && !session.isSpectator">
           <!-- Users -->
           <li class="headline">Jogadores</li>
-          <li @click="addPlayer" v-if="players.length < 20">Adicionar<em>[A]</em></li>
+          <li @click="addPlayer" v-if="players.length < 20">Add<em>[A]</em></
           <li @click="randomizeSeatings" v-if="players.length > 2">
             Randomizar
             <em><font-awesome-icon icon="dice"/></em>
